@@ -1,0 +1,18 @@
+.odd{
+    background-color: rgb(240, 123, 123);
+    font-family: verdana,"DejaVu Sans",sans-serif;
+}
+
+#sec_elem {
+    color: hsl(240, 97%, 47%);
+    font-size: 36px;
+}
+
+.font_adj {
+    font-size: 24px;
+}
+
+#fou_elem {
+    background-color: #90ee90;
+    font-weight: bold;
+}
