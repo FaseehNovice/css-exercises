@@ -46,3 +46,26 @@ html {
   color: white;
   text-align: left;
 }
+
+.container{
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 25vw auto;
+  grid-template-rows: 12vh 12vh 74vh 12vh ;
+}
+.header,.footer{
+  grid-column: 1 / span 4;
+}
+.footer{
+  grid-row: 4 / 5;
+}
+.sidebar{
+  grid-column: 1;
+  grid-row: 2 / span 2;
+}
+.article{
+  grid-row: 3;
+}
+.nav{
+  grid-column: 2 ;
+}
